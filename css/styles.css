@@ -1,0 +1,160 @@
+/*font-family: 'Inter', sans-serif;
+font-family: 'Padauk', sans-serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Roboto Slab', serif
+font-family: 'Kanit', sans-serif;*/
+
+
+.body{ background-color: rgb(0, 29, 53);
+}
+
+/*          fonts        */
+.letrablanca {
+  color:white;
+}
+
+.titulos{
+font-family:Roboto Slab;
+font-weight: 500;
+text-align:center;
+font-size:40px;
+}
+
+.texto{
+  font-family:kanit;
+  font-weight: 300;
+  font-size: 15px;
+  color: white;
+}
+
+ul li a { text-decoration: none; color: black;}
+
+.responsive{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*      Achivments-Max-Checo    */
+main ul {
+  margin: 20px;
+  padding: 5px;
+  list-style: none;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 5px solid rgba(222, 134, 40, 0.719);background-color:rgba(222, 134, 40, 0.924) ;
+  border-radius: 5px;
+}
+
+/*   index button to car's page    */
+.headerbutton {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+
+.imagenesMaxCheco{
+  width: 80%;
+  height: 80%;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+section div{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 200px;
+}
+
+
+header div a{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  border: 3px solid red ;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  background-color: red;
+}
+
+main h1 {
+  margin: 100px;
+  text-align: center;
+  font-family:kanit;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+/*  Car's page decription  */
+strong div{
+  background-color: rgba(222, 134, 40, 0.924);
+  margin: 100px 20px;
+  padding:10px;
+}
+
+section p{
+  text-align: right;
+  margin: 30px;
+}
+
+section table{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+header div {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+header div img{
+  width: 100%;
+}
+
+/*   animation    */
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px
+  }
+  
+  .ball {
+	width: 22px;
+	height: 22px;
+	border-radius: 11px;
+	margin: 0 10px;
+	
+	animation: 2s bounce ease infinite;
+  }
+  
+  .blue {
+	background-color: #4285F5;
+  }
+  
+  .red {
+	background-color: #EA4436;
+	animation-delay: .25s;
+  }
+  
+  .yellow {
+	background-color: #FBBD06;
+	animation-delay: .5s;
+  }
+  
+  .green {
+	background-color: #34A952;
+	animation-delay: .75s;
+  }
+  
+  @keyframes bounce {  
+	  50% {
+		  transform: translateY(25px);
+	  }
+  }
